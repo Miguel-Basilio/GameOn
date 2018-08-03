@@ -19,7 +19,6 @@ public class Game extends Canvas implements Runnable{
 		new Window(WIDTH, HEIGHT,  "Let;s Build a Game", this);
 	}
 	
-	
 	public synchronized void start() {
 		thread = new  Thread (this);
 		thread.start();

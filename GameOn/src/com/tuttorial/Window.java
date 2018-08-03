@@ -25,7 +25,6 @@ public Window(int width, int height, String title, Game game) {
 	game.start();
 	
 	
-	
 }
 		
 }
